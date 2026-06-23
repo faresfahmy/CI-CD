@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.11"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "esModuleInterop": true,    
+    "types": ["jest", "node"]   
+  }
+}
